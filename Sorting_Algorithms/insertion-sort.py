@@ -1,7 +1,8 @@
 arr = [2,5,8,1,4,9,3,7]
 
 for i in range(len(arr)): #N Times
-    for j in range(i - 1, -1, -1): #N Times
+    for j in range(i - 1, -1, -1): #N 
+        print(arr[j],arr[j+1])
         if arr[j] > arr[j + 1]:
             arr[j], arr[j + 1] = arr[j + 1], arr[j]
         else:

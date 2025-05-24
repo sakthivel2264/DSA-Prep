@@ -88,3 +88,4 @@ def search(head, key):
     
 print(search(head, 3))  # True
 print(search(head, 10))  # False
+

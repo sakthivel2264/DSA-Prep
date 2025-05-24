@@ -1,4 +1,4 @@
-#Binary Tree or Binary Search Tree
+# Binary Search Tree
 
 class TreeNode:
     def __init__(self, value):
@@ -73,3 +73,15 @@ tree.preorder_traversal()
 tree.postorder_traversal()
 
 print(tree.find(2).content["data"])
+
+
+# def find(node, target):
+#     if not node:
+#         return
+    
+#     if target == node.value:
+#         return True
+#     elif target < node: return find(node.left, target)
+#     else: return find(node.right, target)
+    
+# find(tree, 2)
